@@ -29,3 +29,8 @@ c.specific_usage()
 b = MotorCycle()
 b.general_usage()
 b.specific_usage()
+
+# isinstance() will tell you if an object is an instance of a particular class
+print(isinstance(c, Car))
+# issubclass will tell if a class is a subclass of another class or not
+print(issubclass(Car, Vehicle))
