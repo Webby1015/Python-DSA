@@ -10,6 +10,7 @@ class Car(Vehicle):
         self.has_roof = True
 
     def specific_usage(self):
+        self.general_usage()
         print("Specific usage: Commute to work, vacation with family")
 
 
