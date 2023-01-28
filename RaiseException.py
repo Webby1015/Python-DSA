@@ -12,4 +12,4 @@ try:
 except Exception as e:
     print(e)
 
-# All exceptions are an instance of class
+# All exceptions are an instance of class named exception
