@@ -11,4 +11,12 @@ itr = iter(a)
 print("first item: ", next(itr))
 print("Second item: ", next(itr))
 print("Third itme: ", next(itr))
+print()
 # next sends it to the next items address
+reverse_itr = reversed(a)
+
+# reversed will give the address of last item and keep all the succedding items in reverse order after that
+
+print("Last item: ", next(reverse_itr))
+print("Second last item: ", next(reverse_itr))
+print("Third last itme: ", next(reverse_itr))
