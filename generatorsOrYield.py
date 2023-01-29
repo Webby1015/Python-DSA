@@ -29,3 +29,5 @@ for channels in remote_control_next():
     print(channels)
 # this is possible because for also uses the __iter__ method and __ next method
 # so if you see remote_control_next() function is kind of stored like a list
+#  we use generators because we dont need to use iter and next over and over again
+# or stopiteration as it will stop on its own
