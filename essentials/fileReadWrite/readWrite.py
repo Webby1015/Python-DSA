@@ -16,3 +16,10 @@ f_out.close()
 # if we use "w" mode we can not read it so instead we use "w+" to use both
 
 # the difference b/w "r+" and "w+" is "w+" will create a file if it dose not exist wheres "r+" wont
+
+
+#                                   with statement:
+
+with open("E:\\Codes\\Python DSA\\essentials\\fileReadWrite\\text_Wc.txt", "r") as f:
+    print(f.read())
+# it works same as before but it closes on its own now
