@@ -27,3 +27,4 @@ print(x | y)
 
 # x|y is same as x union y
 # x&y is same as x intersection y
+# similarly there are x-y, x<y (checks x is subset of y)
