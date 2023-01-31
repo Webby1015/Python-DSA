@@ -11,3 +11,8 @@ for line in f:
 
 f.close()
 f_out.close()
+
+# if we use "r" mode we can not write so instead we use "r+" to use both
+# if we use "w" mode we can not read it so instead we use "w+" to use both
+
+# the difference b/w "r+" and "w+" is "w+" will create a file if it dose not exist wheres "r+" wont
