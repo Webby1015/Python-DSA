@@ -23,3 +23,4 @@ f_out.close()
 with open("E:\\Codes\\Python DSA\\essentials\\fileReadWrite\\text_Wc.txt", "r") as f:
     print(f.read())
 # it works same as before but it closes on its own now
+# you can check wheter a file is closed or not using f.closed
