@@ -1,0 +1,2 @@
+ word count :3 I love python
+ word count :3 I love javaScript
