@@ -10,38 +10,28 @@
 # we will not code peek because it's just the card thats on the top
 
 # creating a stack
-def create_stack():
-    stack = []
-    return stack
+class stack:
+    def __init__(self):
+        self.stack = []
 
-# IsEmpty check
+    def check_empty(self):
+        return len(self.stack == 0)
 
+    def push(self, item):
+        self.stack.append(item)
 
-def check_empty(stack):
-    return len(stack) == 0
+    def pop(self):
+        if(len(self.stack) == 0):
+            return None
+        self.stack.pop()
 
-# push
-
-
-def push(stack, item):
-    stack.append(item)
-    return stack
-
-# pop
-
-
-def pop(stack):
-    if(check_empty(stack) != True):
-        stack.pop()
-    else:
-        print('stack empty')
-    return stack
+    def display(self):
+        print(self.stack)
 
 
-stack = create_stack()
-push(stack, 1)
-push(stack, 2)
-push(stack, 3)
-print(stack)
-pop(stack)
-print(stack)
+s = stack()
+s.push(1)
+s.push(2)
+s.display()
+s.pop()
+s.display()
